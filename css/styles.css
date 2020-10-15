@@ -10298,10 +10298,10 @@ body {
 }
 
 .experienciaProfissional-section {
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 .experienciaProfissional-section .featured-text {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 @media (min-width: 992px) {
   .experienciaProfissional-section .featured-text {
