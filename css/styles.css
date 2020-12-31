@@ -6277,6 +6277,7 @@ button.bg-danger:focus {
   background-color: #f8f9fa !important;
 }
 
+
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
@@ -10280,13 +10281,19 @@ body {
   padding-top: 5rem;
   padding-bottom:22rem;
   margin-bottom: 1rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);}
+  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+
+
+}
 
 .complementares-section{
-  padding-top: 3.5rem;
-  padding-bottom:22rem;
+  padding-top: 1rem;
+  padding-bottom:1rem;
   margin-bottom:1rem;
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.complementares-section h2{
+  padding-left: 7rem;
 }
 
 .sobre-section {
@@ -10315,7 +10322,7 @@ body {
 }
 @media (min-width: 992px) {
   .experienciaProfissional-section .project-text {
-    padding: 5rem;
+    padding: 3rem;
   }
   .experienciaProfissional-section .project-text hr {
     border-color: #64a19d;
@@ -10380,4 +10387,37 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+#experienciaProfissional-section {
+  padding: 0.5rem 0;
+}
+.experienciaProfissional-section .featured-text {
+  padding: 0.5rem;
+}
+@media (min-width: 992px) {
+  .experienciaProfissional-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+.complementar-section .project-text {
+  padding: 0.5rem;
+  font-size: 90%;
+}
+.complementar-bg-light {
+  background-color: #f8f9fa !important;
+}
+
+
+a.bg-light:hover, a.bg-light:focus,
+button.bg-light:hover,
+button.bg-light:focus {
+  background-color: #dae0e5 !important;
+}
+.complementares-section{
+  padding-top: 3rem;
+  padding-bottom:3rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
