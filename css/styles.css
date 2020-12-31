@@ -10183,12 +10183,12 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 10);
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 15);
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -10288,12 +10288,12 @@ body {
 
 .complementares-section{
   padding-top: 1rem;
-  padding-bottom:1rem;
   margin-bottom:1rem;
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .complementares-section h2{
   padding-left: 7rem;
+  padding-bottom: 1.5rem;
 }
 
 .sobre-section {
